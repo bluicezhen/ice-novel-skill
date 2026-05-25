@@ -27,10 +27,11 @@
 mkdir my-novel
 cd my-novel
 
-# 确认 skill 已安装
-# ice-novel-skill 的 command 文件应在 ~/.claude/commands/ 下
-# 如未安装，将 ice-novel-skill/.claude/commands/ 复制到 ~/.claude/commands/
+# 安装 skill：只需要复制 command 文件
+# cp ice-novel-skill/.claude/commands/*.md ~/.claude/commands/
 ```
+
+`/开书` 是自包含命令，不依赖 `templates/` 目录；即使只安装 `~/.claude/commands/`，也应能直接初始化小说项目。仓库里的 `templates/` 仅作为参考样例。
 
 ---
 

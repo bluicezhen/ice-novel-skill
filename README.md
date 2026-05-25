@@ -10,6 +10,18 @@
 
 ---
 
+## 安装
+
+将 command 文件复制到 Claude Code 的 commands 目录即可：
+
+```bash
+cp .claude/commands/*.md ~/.claude/commands/
+```
+
+本 skill 的命令不依赖仓库内 `templates/` 目录；`/开书` 会直接生成标准初始化文件。仓库里的 `templates/` 仅作为参考样例。
+
+---
+
 ## 快速开始
 
 ```bash
